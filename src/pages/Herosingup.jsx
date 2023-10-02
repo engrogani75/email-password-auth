@@ -1,5 +1,8 @@
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import app from "../Firbase/firebase.config";
+
+
+
 const Herosingup = () => {
   const auth = getAuth(app);
   const heroSignUp = (e) => {
